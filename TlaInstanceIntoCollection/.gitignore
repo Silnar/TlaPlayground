@@ -1,0 +1,14 @@
+# Ignore generated files
+*.tex
+*.pdf
+*.out
+*.aux
+*.log
+
+# Ignore snapshot configurations
+*.toolbox/*_SnapShot_*.launch
+
+# Ignore models and snapshot subdirectories
+*.toolbox/*/
+!*.toolbox/.settings/
+
