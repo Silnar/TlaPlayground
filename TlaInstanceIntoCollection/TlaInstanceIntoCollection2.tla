@@ -1,5 +1,11 @@
 -------------------- MODULE TlaInstanceIntoCollection2 ------------------------
 
+(*
+Example of instancing into a collection.
+
+Version with functional style module.
+*)
+
 EXTENDS Naturals, Sequences
 
 CONSTANT Player

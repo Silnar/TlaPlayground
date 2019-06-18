@@ -1,5 +1,11 @@
 -------------------- MODULE TlaInstanceIntoCollection3 ------------------------
 
+(*
+Example of instancing into a collection.
+
+Version with extracting variables to separate file.
+*)
+
 EXTENDS Naturals, Sequences
 
 CONSTANT Player
